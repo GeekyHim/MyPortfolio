@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Himanshu Gupta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html#home" class="logo" style="text-decoration:none; color:var(--accent);">MyPortfolio</a>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <button id="back-to-top" title="Back to top">&#8679;</button>
+    <section class="section contact-section">
+        <h2>Contact Me</h2>
+        <form id="contact-form" action="contact.php" method="POST" novalidate>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+            <div id="form-messages"></div>
+        </form>
+        <div class="social-links" style="margin-top:2.5rem; text-align:center;">
+            <h3 style="color:var(--primary); margin-bottom:1.2rem;">Connect with me</h3>
+            <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:2rem; align-items:center;">
+                <a href="https://github.com/GeekyHim" target="_blank" title="GitHub" style="display:inline-flex;align-items:center;"><img src="github.svg" alt="GitHub" style="width:32px;height:32px;margin-right:0.5rem;">GitHub</a>
+                <a href="https://www.linkedin.com/in/geekyhim/" target="_blank" title="LinkedIn" style="display:inline-flex;align-items:center;"><img src="linkedin.svg" alt="LinkedIn" style="width:32px;height:32px;margin-right:0.5rem;">LinkedIn</a>
+                <a href="mailto:geekyhim@gmail.com" title="Email" style="display:inline-flex;align-items:center;"><span style="font-size:1.7rem;margin-right:0.5rem;">&#9993;</span>geekyhim@gmail.com</a>
+                <a href="https://linktr.ee/geekyhim" target="_blank" title="Linktree" style="display:inline-flex;align-items:center;"><span style="font-size:1.7rem;margin-right:0.5rem;">🌳</span>Linktree</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="https://github.com/GeekyHim" target="_blank"><img src="github.svg" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/geekyhim/" target="_blank"><img src="linkedin.svg" alt="LinkedIn"></a>
+            </div>
+            <p>&copy; 2025 Himanshu Gupta. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo" style="text-decoration:none; color:var(--accent);">MyPortfolio</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <button id="back-to-top" title="Back to top">&#8679;</button>
+    <section id="home" class="section home-section">
+        <div class="home-content" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 2rem;">
+
+                
+               
+               
+            
+            <div style="flex: 1; min-width: 260px;">
+                <div class="top"><img src="profile.jpg" alt="Profile Image" class="profile-img"> 
+                    <div class="text">
+                    <h1>Himanshu Gupta</h1>
+                    <h2>Full Stack Developer</h2>
+                </div>
+
+                </div>
+                <div class="bottom">
+                    
+                </div>
+                <style>
+                    .top{
+                        display: flex;
+                        /* align-items: center;
+                        justify-content: center; */
+                        gap: 2rem;
+                    }
+                    .text h1{
+                        /* margin-left: 1rem; */
+                        margin-top: 2rem;
+                        margin-bottom: 0rem;
+                    }
+
+                    .text h2{
+                        /* margin-left: 1rem; */
+                        margin-top: 0rem;
+                        margin-bottom: 1rem;
+                    }
+                </style>
+                <p>👋 Hi, I'm <b>@GeekyHim</b>, Himanshu Gupta, a Bachelor of Engineering (CSE) student at Chandigarh University.<br><br>
+                I am deeply passionate about continuous learning, innovation, and problem-solving. My journey in computer science revolves around exploring emerging technologies, executing impactful projects, and constantly challenging myself to improve. Whether it's working on development projects, participating in hackathons, or collaborating with like-minded individuals, I always strive to push my boundaries and gain meaningful experiences.<br><br>
+                Beyond academics, I actively engage in leadership roles, community-driven initiatives, and technical clubs, where I contribute to fostering a culture of learning and collaboration. As the Joint Secretary of C Square Club, I play a key role in organizing workshops, events, and hands-on coding sessions that empower students to grow their technical skills.<br><br>
+                I have also had the privilege of participating in various prestigious competitions, where I worked on real-world problem statements, applying my technical expertise to develop innovative solutions. One such competition was NIT Hamirpur Hack 5.0 National Level Hackthon in which me and my team emerged Grand Winners. Additionally, attending workshops such as the Web and Mobile App Development workshop by IIT Roorkee, Data Analysis and SQL Boot camp by NIT Trichy etc. has further expanded my knowledge in software development related fields.<br><br>
+                My goal is to continuously evolve, contribute to impactful projects, and collaborate with individuals who share the same enthusiasm for technology and innovation. I am always open to new opportunities, challenges, and learning experiences.
+                </p>
+                <h3>Programming Languages</h3>
+                <ul class="skills-list">
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>C/C++</li>
+                    <li>Python</li>
+                </ul>
+                <h3>Technical Tools</h3>
+                <ul class="skills-list">
+                    <li>MongoDB</li>
+                    <li>Git/GitHub</li>
+                    <li>Arduino</li>
+                    <li>MySQL</li>
+                    <li>VS Code</li>
+                </ul>
+                <h3>Interpersonal Skills</h3>
+                <ul class="skills-list">
+                    <li>Adaptability</li>
+                    <li>Continuous Learner</li>
+                    <li>Soft Skills</li>
+                    <li>Communication Skills</li>
+                    <li>Innovative Mindset</li>
+                    <li>Team Leadership</li>
+                    <li>Problem Solving</li>
+                    <li>Critical Thinking</li>
+                    <li>Public Speaking</li>
+                    <li>Attention to Detail</li>
+                    <li>Time Management</li>
+                </ul>
+                <h3>Education</h3>
+                <ul class="education-list">
+                    <li>Bachelors in Computer Science Engineering | Chandigarh University, Gharuan, Mohali | CGPA: 8.13 </li>
+                    <li>Higher Secondary Certificate (CBSE) | Green Land Convent School, Ludhiana, Punjab | Percentage: 87% </li>
+                    <li>Secondary School Certificate (CBSE) | Green Land Convent School, Ludhiana, Punjab | Percentage: 94.2%</li>
+                </ul>
+                
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="section projects-section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>DSA And Java</h3>
+                <p class="tech-stack">Java, DSA</p>
+                <p>A repository showcasing my journey of learning Java and mastering Data Structures & Algorithms through hands-on practice and problem-solving.</p>
+                <a href="https://github.com/GeekyHim/DSA-and-Java" class="btn">Github</a>
+            </div>
+            <div class="project-card">
+                <h3>E-Commerce Backend Project</h3>
+                <p class="tech-stack">Node.js, Express, MongoDB, REST APIs</p>
+                <p>A Node.js and Express-based backend for an e-commerce platform, featuring user authentication, product management, and order processing using MongoDB and REST APIs.</p>
+                <a href="https://github.com/GeekyHim/E-Commerce-Backend-Project" class="btn">GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Email Application</h3>
+                <p class="tech-stack">Java</p>
+                <p>A Java application that automates email account creation with dynamic email generation, secure password handling, and mailbox management features.</p>
+                <a href=https://github.com/GeekyHim/Email-Application" class="btn">GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Guesser-Game-Project</h3>
+                <p class="tech-stack">Java</p>
+                <p>A Java-based Number Guesser Game where players attempt to guess a number chosen by the guesser, showcasing modular design and logical comparisons.</p>
+                <a href="https://github.com/GeekyHim/Guesser-Game-Project" class="btn">GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Spam Detection Model</h3>
+                <p class="tech-stack">Python, Machine Learning</p>
+                <p>Engaged in the development of a python based Spam classification model. Design process included cleaning of data, text vectorization and model training</p>
+            </div>
+
+            <div class="project-card">
+                <h3>PIRMotionSensor</h3>
+                <p class="tech-stack">Arduino, C/C++</p>
+                <p>A motion detection system using a PIR sensor and Arduino to trigger a buzzer alert upon detecting movement, ideal for basic security and automation.</p>
+                <a href="https://github.com/GeekyHim/PIRMotionSensor" class="btn">GitHub</a>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+    <section id="more-info" class="section more-info-section">
+        <h2>Leadership | Activities | Honors</h2>
+        <ul>
+            <li><b>Joint Secretary, C Square Club</b> – Chandigarh University (January 2025 – Present)</li>
+            <li><b>Grand Winner, Hack 5.0 Obsidian Saga Hackathon</b> – NIT Hamirpur (April 2025)</li>
+            <li><b>Academic Achievers Award, Academic Year 2024–2025</b> – Chandigarh University (April 2025)</li>
+            <li><b>Backend Development Course</b>, PW Skills (March 2025)</li>
+            <li><b>Code++</b>, C++ Peer Learning Workshop – C Square Club, Chandigarh University (February 2025)</li>
+            <li><b>Core Team Member & Anchor, Engineering Community</b> – Chandigarh University (July 2024 – December 2024)</li>
+            <li><b>Data Analytics Bootcamp</b>, NIT Trichy – Unstop Platform (December 2024 – January 2025)</li>
+            <li><b>Class Representative, Department of Career Planning and Development (DCPD)</b> – Chandigarh University (July 2024 – December 2024)</li>
+            <li><b>IPR & Patent and Design Filing Workshop</b>, under NIPAM in association with RGNIIPM – Chandigarh University (September 2024)</li>
+            <li><b>Cloud Computing Certification</b>, NPTEL (IIT Kharagpur) – Under guidance of Prof. Soumya Kanti Ghosh</li>
+        </ul>
+
+</section>
+        <section id="more-info" class="section more-info-section">
+        <h2>Volunteer Experiences</h2>
+        <p>In my academic as well as personal life, I have always been keen to take part in various activities. This has led me to provide my assistance in a variety of things. I have helped many of my juniors navigate academic life, study for exams, completing assignments and projects. I have helped in event management, societal activities, maintenance etc. Furthermore, I have also contributed in handling equipment and systems such as microphones, sound systems, PCs. All of this has made me understand the value and essence of team work and community feeling. Moreover, it has fostered the development of leadership, management, team skills, soft skills, people skills etc. into my personality.</p>
+        
+    </section>
+    <section id="more-info" class="section more-info-section">      
+        <h2>Personal Interests</h2>
+        <ul>
+            <li><b>Book Reading</b><br>
+                I have always been a curious child, this led me to ask multiple questions about everyday objects and behaviors. All this soon led me into developing a reading habit as a means of satisfying my curiosity and thirst for knowledge.
+            </li>
+            <li><b>Communication</b><br>
+                I feel talking to people and chatting with them on various topics opens me to different perspectives of the world. I love to witness the world through these perspectives and understand how others view it. This habit of mine has led me into becoming very social and interacting with everyone. Communication and interactions hold a significant place in my life whether it is with peers, professors or industry professionals.
+            </li>
+            <li><b>Exploration</b><br>
+                I have a strong desire for knowledge. It is because of this desire I have stepped into the world of research and development as well as I strive for understanding more deeply about my field.
+            </li>
+            <li><b>Co-curricular Activities and Sports</b><br>
+                With all this, I also enjoy time well spent with friends, family and playing sports. For this reason, I was in volleyball team of my school. I hold the values that one should always spend quality time with their friends and family.
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="https://github.com/GeekyHim" target="_blank"><img src="github.svg" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/geekyhim/" target="_blank"><img src="linkedin.svg" alt="LinkedIn"></a>
+                <!-- Add more icons as needed -->
+            </div>
+            <p>&copy; 2025 Himanshu Gupta. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
