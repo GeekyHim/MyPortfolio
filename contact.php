@@ -13,11 +13,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $response['message'] = 'Message is too short.';
     } else {
         // Simulate sending email (replace with mail() in production)
-        // $to = 'your@email.com';
-        // $subject = 'Portfolio Contact Form';
-        // $body = "Name: $name\nEmail: $email\nMessage: $message";
-        // $headers = "From: $email";
-        // $sent = mail($to, $subject, $body, $headers);
+        $to = 'geekyhim@email.com';
+        $subject = 'Portfolio Contact Form';
+        $body = "Name: $name\nEmail: $email\nMessage: $message";
+        $headers = "From: $email";
+        $sent = mail($to, $subject, $body, $headers);
         $sent = true; // Simulate success
         if ($sent) {
             $response['success'] = true;
